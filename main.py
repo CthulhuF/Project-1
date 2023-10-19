@@ -1,16 +1,25 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+a = []
+while 1 == 1:
+    input_variable = input('Enter the next number: ')
+    if input_variable == '':
+        break
+    else:
+        a.append(int(input_variable))
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+target = int(input('Enter the target number: '))
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+def sum_of_two(self, ):
+    for i in a:
+        if a[i] + a[- 1] == target:
+            print(i, len(a))
+            break
+
+    a.pop()
+    sum_of_two(a)
+
+
+sum_of_two(a)
+print(a)
+
